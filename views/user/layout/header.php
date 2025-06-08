@@ -14,10 +14,10 @@
     <link rel="mask-icon" href="<?= URL_STORAGE ?>/system/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="Epic Travel Shopping Design Kit">
+    <meta name="description" content="<?= WEB_DESCRIPTION ?>">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@ui8">
-    <meta name="twitter:title" content="Fleet – Travel Shopping UI Kit">
+    <meta name="twitter:title" content="<?= WEB_DESCRIPTION ?>">
     <meta name="twitter:description" content="Epic Travel Shopping Design Kit">
     <meta name="twitter:creator" content="@ui8">
     <meta name="twitter:image" content="https://ui8-fleet-html.herokuapp.com/<?= URL_STORAGE ?>/system/twitter-card.jpg">
@@ -25,8 +25,8 @@
     <meta property="og:type" content="Article">
     <meta property="og:url" content="https://ui8.net/ui8/products/fleet--travel-shopping-ui-design-kit">
     <meta property="og:image" content="https://ui8-fleet-html.herokuapp.com/<?= URL_STORAGE ?>/system/fb-og-image.jpg">
-    <meta property="og:description" content="Epic Travel Shopping Design Kit">
-    <meta property="og:site_name" content="Fleet – Travel Shopping UI Kit">
+    <meta property="og:description" content="<?= WEB_DESCRIPTION ?>">
+    <meta property="og:site_name" content="<?= WEB_DESCRIPTION ?>">
     <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
