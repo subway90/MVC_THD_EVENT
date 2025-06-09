@@ -20,14 +20,9 @@
     <meta name="twitter:title" content="<?= WEB_DESCRIPTION ?>">
     <meta name="twitter:description" content="<?= WEB_DESCRIPTION ?>">
     <meta name="twitter:creator" content="@ui8">
-    <meta name="twitter:image" content="https://ui8-fleet-html.herokuapp.com/<?= URL_STORAGE ?>/system/twitter-card.jpg">
-    <meta property="og:title" content="Fleet – Travel Shopping UI Kit">
-    <meta property="og:type" content="Article">
-    <meta property="og:url" content="https://ui8.net/ui8/products/fleet--travel-shopping-ui-design-kit">
-    <meta property="og:image" content="https://ui8-fleet-html.herokuapp.com/<?= URL_STORAGE ?>/system/fb-og-image.jpg">
+    <meta property="og:title" content="<?= WEB_DESCRIPTION ?>">
     <meta property="og:description" content="<?= WEB_DESCRIPTION ?>">
     <meta property="og:site_name" content="<?= WEB_DESCRIPTION ?>">
-    <meta property="fb:admins" content="132951670226590">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
