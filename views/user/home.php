@@ -233,70 +233,52 @@
     </div>
 
     <!-- Section Feedback -->
-    <div class="section travel mb-0 py-3">
-        <div class="travel__center center">
-            <div class="travel__head">
+    <div class="container-fluid py-5">
+        <div class="container px-0">
+            <div class="travel__head mb-3">
                 <h2 class="travel__title ff-main fw-bold h2">Khách hàng nói về chúng tôi</h2>
                 <div class="travel__info ff-main info">Niềm tin được xây dựng từ sự trải nghiệm</div>
             </div>
-            <div class="travel__row">
-                <div class="travel__col">
-                    <div class="travel__list">
-                        <div class="travel__item">
-                            <div class="travel__number" style="background-color: #8BC5E5;">01</div>
-                            <div class="travel__subtitle">Tìm chuyến đi phù hợp với lối sống linh hoạt</div>
-                            <div class="travel__content">Stacks is a production-ready library of stackable content blocks built in React Native</div>
-                        </div>
-                        <div class="travel__item">
-                            <div class="travel__number" style="background-color: #92A5EF;">02</div>
-                            <div class="travel__subtitle">Du lịch với sự tự tin hơn</div>
-                            <div class="travel__content">Stacks is a production-ready library of stackable content blocks built in React Native</div>
-                        </div>
-                        <div class="travel__item">
-                            <div class="travel__number" style="background-color: #58C27D;">03</div>
-                            <div class="travel__subtitle">Xem những gì thực sự được bao gồm</div>
-                            <div class="travel__content">Stacks is a production-ready library of stackable content blocks built in React Native</div>
+            
+            <div id="carouselFeedback" class="carousel slide mt-lg-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <?php foreach (ARR_F as $i => $feedback) : ?>
+                    <div class="carousel-item <?= $i == 0 ? 'active' : '' ?>"  data-bs-interval="4000">
+                        <div class="row px-lg-3 px-2">
+                            <?php foreach ($feedback as $card) : ?>
+                                <div class="col-12 col-lg-4 p-2">
+                                    <div class="bg-light rounded-3 p-3 card-feedback">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" width="40" src="<?= DEFAULT_AVATAR ?>" alt="">
+                                            <div class="">
+                                                <div class="fw-bold">
+                                                    <?= $card['name'] ?>
+                                                </div>
+                                                <div class="small fw-light d-flex align-items-center gap-2">
+                                                    <img width="40" src="<?= URL_STORAGE.$card['brand'] ?>" alt="<?= $card['brand'] ?>">
+                                                    <?= $card['name_brand'] ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <p class="small text-muted">
+                                            <?= $card['content'] ?>
+                                        </p>
+                                    </div>
+                                </div>
+                            <?php endforeach ?>
                         </div>
                     </div>
+                    <?php endforeach ?>
                 </div>
-                <div class="travel__col">
-                    <div class="travel__wrapper">
-                    <div class="travel__slider js-slider-travel">
-                        <div class="travel__gallery">
-                        <div class="travel__bg"><img srcSet="<?= URL_STORAGE ?>content/travel-pic-1@2x.jpg 2x"
-                            src="<?= URL_STORAGE ?>content/travel-pic-1.jpg" alt="Travel"></div>
-                        <div class="travel__group">
-                            <div class="travel__preview"><img class="some-icon" srcSet="<?= URL_STORAGE ?>content/appraisal-pic-1@2x.png 2x"
-                                src="<?= URL_STORAGE ?>content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark"
-                                srcSet="<?= URL_STORAGE ?>content/appraisal-pic-dark-1@2x.png 2x" src="<?= URL_STORAGE ?>content/appraisal-pic-dark-1.png"
-                                alt="Appraisal"></div>
-                            <div class="travel__preview"><img class="some-icon" srcSet="<?= URL_STORAGE ?>content/appraisal-pic-1@2x.png 2x"
-                                src="<?= URL_STORAGE ?>content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark"
-                                srcSet="<?= URL_STORAGE ?>content/appraisal-pic-dark-1@2x.png 2x" src="<?= URL_STORAGE ?>content/appraisal-pic-dark-1.png"
-                                alt="Appraisal"></div>
-                            <div class="travel__preview"><img class="some-icon" srcSet="<?= URL_STORAGE ?>content/appraisal-pic-1@2x.png 2x"
-                                src="<?= URL_STORAGE ?>content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark"
-                                srcSet="<?= URL_STORAGE ?>content/appraisal-pic-dark-1@2x.png 2x" src="<?= URL_STORAGE ?>content/appraisal-pic-dark-1.png"
-                                alt="Appraisal"></div>
-                        </div>
-                        </div>
-                        <div class="travel__gallery">
-                        <div class="travel__bg"><img srcSet="<?= URL_STORAGE ?>content/travel-pic-1@2x.jpg 2x"
-                            src="<?= URL_STORAGE ?>content/travel-pic-1.jpg" alt="Travel"></div>
-                        <div class="travel__group">
-                            <div class="travel__preview"><img class="some-icon" srcSet="<?= URL_STORAGE ?>content/appraisal-pic-1@2x.png 2x"
-                                src="<?= URL_STORAGE ?>content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark"
-                                srcSet="<?= URL_STORAGE ?>content/appraisal-pic-dark-1@2x.png 2x" src="<?= URL_STORAGE ?>content/appraisal-pic-dark-1.png"
-                                alt="Appraisal"></div>
-                            <div class="travel__preview"><img class="some-icon" srcSet="<?= URL_STORAGE ?>content/appraisal-pic-1@2x.png 2x"
-                                src="<?= URL_STORAGE ?>content/appraisal-pic-1.png" alt="Appraisal"><img class="some-icon-dark"
-                                srcSet="<?= URL_STORAGE ?>content/appraisal-pic-dark-1@2x.png 2x" src="<?= URL_STORAGE ?>content/appraisal-pic-dark-1.png"
-                                alt="Appraisal"></div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center gap-3">
+                <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselFeedback" data-bs-slide="prev">
+                   <i class="bi bi-arrow-left fs-4 text-muted"></i>
+                </button>
+                <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselFeedback" data-bs-slide="next">
+                   <i class="bi bi-arrow-right fs-4 text-muted"></i>
+                </button>
             </div>
         </div>
     </div>

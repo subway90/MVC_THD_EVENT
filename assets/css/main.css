@@ -358,6 +358,16 @@ html {
     transition: calc(0.5s);
 }
 
+.card-feedback {
+    border: 1px solid #0000000f;
+    transition: calc(0.3s);
+}
+
+.card-feedback:hover {
+    box-shadow: 0 0 12px 2px #0000000f;
+    transition: calc(0.5s);
+}
+
 /* Slider */
 .slick-slider {
     position: relative;
