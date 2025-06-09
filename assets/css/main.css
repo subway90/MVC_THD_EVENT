@@ -3268,10 +3268,6 @@ body.dark .select-empty .option.selected {
     }
 }
 
-[class^="section"] {
-    margin-bottom: 136px;
-}
-
 @media only screen and (max-width: 1179px) {
     [class^="section"] {
         margin-bottom: 112px;
@@ -7771,8 +7767,7 @@ body.dark .hosts__avatar {
 
 .categories__item {
     display: block;
-    padding: 32px;
-    border-radius: 24px;
+    border-radius: 16px;
     border: 1px solid #F4F5F6;
     color: #23262F;
     transition: all .2s;

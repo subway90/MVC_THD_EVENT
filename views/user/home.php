@@ -47,6 +47,15 @@
                 height: 100%;
                 border-radius: 16px;
             }
+
+            .video-container-project iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 0 16px 16px 0;
+            }
         </style>
         <div class="container row py-5">
 
@@ -193,7 +202,7 @@
 
     <!-- Section Project -->
     <div class="container-fluid bg-blue">
-        <div class="container py-5">
+        <div class="container px-lg-5 py-5">
             <div class="mb-3">
                 <h1 class="ff-main fw-bold text-uppercase">
                     Các dự án của THD
@@ -206,7 +215,41 @@
                 </a>
             </div>
 
-            <div id="carouselProject" class="carousel slide mt-lg-5" data-bs-ride="carousel">
+            
+    <div class="section categories">
+        <div class="categories__center center">
+            <div class="categories__inner">
+                <div class="categories__wrapper">
+                    <div class="categories__slider js-slider-categories">
+                        <?php foreach (ARR_P as $i => $project) : ?>
+
+                        <a class="categories__item bg-light nav-link" href="#">
+                            <div class="video-container">
+                                <iframe 
+                                    class="rounded-bottom-0"
+                                    src="<?= $project['video'] ?>" 
+                                    frameborder="0" 
+                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="px-3 py-2">
+                                <div class="categories__subtitle">
+                                    <?= $project['title'] ?>
+                                </div>
+                                <div class="categories__content">
+                                    <?= $project['desc'] ?>
+                                </div>
+                            </div>
+                        </a>
+                        <?php endforeach ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- <div id="carouselProject" class="carousel slide px-lg-5 mt-lg-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <?php foreach (ARR_P as $i => $project) : ?>
                     <div class="carousel-item  rounded-4 overflow-hidden <?= $i == 0 ? 'active' : '' ?>"  data-bs-interval="2000">
@@ -214,13 +257,13 @@
                             <div class="col-12 col-lg-3 d-flex flex-column justify-content-between bg-light p-3">
                                 <div class="">
                                     <h5 class="fw-bold ff-main">
-                                        Nơi hội tụ tinh hoa đất trời
+                                        <?= $project['small_title'] ?>
                                     </h5>
                                     <h2 class="text-blue text-uppercase py-3">
-                                        tour Phú Quốc
+                                        <?= $project['title'] ?>
                                     </h2>
                                     <p class="ff-main">
-                                        Phú Quốc is a Vietnamese island off the coast of Cambodia in the Gulf of Thailand. It's known for white-sand beaches and resorts, most of which are along the palm-lined southwest coast.
+                                        <?= $project['desc'] ?>
                                     </p>
                                 </div>
                                 <a href="#" class="mt-2 fw-bold nav-link text-blue text-uppercase">
@@ -228,7 +271,15 @@
                                 </a>
                             </div>
                             <div class="col-12 col-lg-9">
-                                <img src="<?= URL_STORAGE ?>project/project_1.png" class="d-block w-100" alt="image">
+                                <div class="video-container">
+                                    <iframe 
+                                        class="rounded-0"
+                                        src="<?= $project['video'] ?>" 
+                                        frameborder="0" 
+                                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -242,7 +293,7 @@
                 <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselProject" data-bs-slide="next">
                    <i class="bi bi-arrow-right fs-4 text-muted"></i>
                 </button>
-            </div>
+            </div> -->
         </div>
     </div>
 
