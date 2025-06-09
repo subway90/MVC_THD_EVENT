@@ -1,12 +1,12 @@
 <!-- Section Footer -->
 <footer class="container-fluid d-flex justify-content-center pt-4 pb-2">
-  <div class="container row">
-    <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row">
-      <div class="col-12 col-lg-2">
-        <img src="<?= WEB_FAVICON ?>" alt="logo favicon" class="w-100">
+  <div class="container row px-0">
+    <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row align-items-center">
+      <div class="col-4 col-lg-2">
+        <img src="<?= WEB_FAVICON ?>" alt="logo favicon" class="w-100 mb-3 mb-lg-0">
       </div>
 
-      <div class="col-12 col-lg-10 text-blue ff-main px-4">
+      <div class="col-12 col-lg-10 text-blue ff-main px-lg-4 text-center text-lg-start mb-4 mb-lg-0">
         <h6 class="fw-bold">
           Công Ty TNHH Du Lịch và Sự Kiện THD
         </h6>
@@ -25,7 +25,7 @@
     </div>
 
     <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row">
-      <div class="col-12 col-lg-6 d-flex flex-column gap-3 text-blue ff-main fw-bold">
+      <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-4 mb-lg-0 gap-3 text-blue ff-main fw-bold">
         <a href="#" class="nav-link">
           Tổ chức sự kiện
         </a>
@@ -46,6 +46,11 @@
         </a>
       </div>
       <div class="col-12 col-lg-6">
+        <style>
+          iframe {
+            border-radius: 16px; /* Bo tròn các góc với độ cong 24px */
+        }
+        </style>
         <div class="fb-page" 
          data-href="https://www.facebook.com/thdtravel.event" 
          data-tabs="timeline" 
@@ -63,7 +68,7 @@
     </div>
     
     <div class="col-12 mt-3">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.788217127537!2d105.8010225751769!3d21.045983180607607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab3d309ce0bb%3A0xa29cd2ca22e6336e!2zNjkgSG_DoG5nIFF14buRYyBWaeG7h3QsIE5naMSpYSDEkMO0LCBD4bqndSBHaeG6pXksIEjDoCBO4buZaSwgVmlldG5hbQ!5e1!3m2!1sen!2s!4v1749375502402!5m2!1sen!2s" 
+      <iframe class="rounded-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.788217127537!2d105.8010225751769!3d21.045983180607607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab3d309ce0bb%3A0xa29cd2ca22e6336e!2zNjkgSG_DoG5nIFF14buRYyBWaeG7h3QsIE5naMSpYSDEkMO0LCBD4bqndSBHaeG6pXksIEjDoCBO4buZaSwgVmlldG5hbQ!5e1!3m2!1sen!2s!4v1749375502402!5m2!1sen!2s" 
       width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     
@@ -95,7 +100,7 @@
           <hr class="border-1 opacity-100">
         </div>
       </div>
-      <div class="text-center fw-bold">
+      <div class="text-center fw-bold small">
         © 2019 / 2025 - Bản quyền thuộc về THD Group
       </div>
 
