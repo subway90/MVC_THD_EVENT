@@ -11,16 +11,32 @@
 
     <!-- Section Introduce Company -->
     <div class="container-fluid px-0 bg-blue d-flex justify-content-center">
+        <style>
+            .video-container {
+                position: relative;
+                overflow: hidden;
+                padding-top: 56.25%; /* Tỷ lệ khung hình 16:9 */
+            }
+
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 16px;
+            }
+        </style>
         <div class="container row py-5 gap-lg-5">
-            <div class="col-12 col-lg-6">
-                <iframe 
-                    width="100%" 
-                    height="360" 
-                    src="https://www.youtube.com/embed/1mpVYOFG4YA?autoplay=1&mute=1" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
+            <div class="col-12 col-lg-6 px-0 mb-lg-0 mb-3">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/1mpVYOFG4YA?autoplay=1&mute=1" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
             </div>
             <div class="col-12 col-lg-5 ff-main d-flex flex-column align-items-center align-items-center align-items-lg-start justify-content-between ps-lg-6">
                 <div class="text-center text-lg-start">
@@ -38,7 +54,7 @@
                         Cam kết "Không ngừng vươn tới đỉnh cao – Kiến tạo giá trị bền vững", THD Travel & Event chính là đối tác lý tưởng cho những trải nghiệm ấn tượng và khác biệt. Hãy cùng chúng tôi biến mọi khoảnh khắc thành tuyệt tác!
                     </p>
                 </div>
-                <a href="#" class="btn btn-outline-blue col-12 col-lg-6 mb-lg-3">
+                <a href="#" class="btn rounded-4 btn-outline-blue col-12 col-lg-6 mb-lg-3">
                     Về chúng tôi
                 </a>
             </div>
@@ -65,7 +81,7 @@
                         <?php foreach (ARR_S_1 as $i => $service) :?>
                         <a class="col-4 col-lg-3 mb-4 mb-lg-5 link-blue" href="stays-category.html">
                             <div class="browse__preview mb-2 mb-lg-4">
-                                <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                                <img class="w-100 rounded-4" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
                             <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
                         </a>
@@ -83,7 +99,7 @@
                         <?php foreach (ARR_S_2 as $i => $service) :?>
                         <a class="col-4 col-lg-3 mb-4 mb-lg-5 link-blue" href="stays-category.html">
                             <div class="browse__preview mb-2 mb-lg-4">
-                                <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                                <img class="w-100 rounded-4" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
                             <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
                         </a>
@@ -101,7 +117,7 @@
                         <?php foreach (ARR_S_3 as $i => $service) :?>
                         <a class="col-6 col-lg-3 mb-4 mb-lg-5 link-blue" href="stays-category.html">
                             <div class="browse__preview mb-2 mb-lg-4">
-                                <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                                <img class="w-100 rounded-4" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
                             <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
                         </a>
@@ -119,7 +135,7 @@
                         <?php foreach (ARR_S_4 as $i => $service) :?>
                         <a class="col-6 col-lg-3 mb-4 mb-lg-5 link-blue" href="stays-category.html">
                             <div class="browse__preview mb-2 mb-lg-4">
-                                <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                                <img class="w-100 rounded-4" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
                             <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
                         </a>
