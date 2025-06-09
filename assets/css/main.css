@@ -317,6 +317,22 @@ html {
 
 }
 
+
+
+.btn-blue {
+    color: #ffffff !important;
+    background-color: var(--color-dark-blue) !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    padding: 8px 32px !important;
+
+}
+
+.btn-blue:hover {
+    background-color: var(--color-dark-blue2) !important;
+
+}
+
 .link-blue {
     text-decoration: none !important;
     color: #000 !important;

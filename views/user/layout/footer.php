@@ -114,12 +114,44 @@
         <a target="_blank" href="https://zalo.me/0968342020" class="btn-cta bg-zalo">
             <img src="<?= URL_STORAGE ?>system/icon_zalo.jpg" alt="zalo icon">
         </a>
-        <button class="btn-cta bg-success">
+        <button class="btn-cta bg-success" data-bs-toggle="modal" data-bs-target="#modalContact">
             <i class="bi bi-pen fs-5"></i>
         </button>
     </div>
 </div>
 
+<!-- Modal Contact -->
+<div class="modal fade" id="modalContact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered px-4">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="text-end">
+          <button class="text-muted opacity-75 py-lg-3 py-1" data-bs-dismiss="modal" aria-label="Close">
+            <i class="bi bi-x-circle-fill fs-2"></i>
+          </button>
+        </div>
+        <h5 class="fw-bold text-center text-uppercase text-blue">
+          tư vấn khách hàng
+        </h5>
+        <div class="d-flex flex-column gap-3">
+          <input class="form-control border-2" type="text" name="name" placeholder="Họ và tên*">
+          <input class="form-control border-2" type="text" name="phone" placeholder="Số di động*">
+          <input class="form-control border-2" type="text" name="email" placeholder="E-mail">
+          <input class="form-control border-2" type="date" name="email" placeholder="E-mail">
+          <select name="service" class="form-control border-2">
+            <option selected disabled value="0">Chọn dịch vụ</option>
+            <option value="1">Dịch vụ A</option>
+            <option value="2">Dịch vụ B</option>
+          </select>
+          <textarea rows="4" name="note" id="" class="form-control border-2" placeholder="Ghi chú thêm (nếu có)"></textarea>
+          <button class="btn btn-blue">
+            Gửi liên hệ
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </div>
 <div class="popup popup_login mfp-hide" id="popup-login">
