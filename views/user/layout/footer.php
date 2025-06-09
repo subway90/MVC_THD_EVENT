@@ -25,7 +25,7 @@
     </div>
 
     <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row">
-      <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-4 mb-lg-0 gap-3 text-blue ff-main fw-bold">
+      <div class="col-12 col-lg-6 d-flex flex-column align-items-lg-start align-items-center mb-4 mb-lg-0 gap-3 text-blue ff-main fw-bold">
         <a href="#" class="nav-link">
           Tổ chức sự kiện
         </a>
