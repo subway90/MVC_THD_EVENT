@@ -7033,6 +7033,7 @@ body.dark .browse__card:hover {
 }
 
 .browse__subtitle {
+    text-wrap: nowrap;
     font-size: 16px;
     font-weight: 500;
 }
