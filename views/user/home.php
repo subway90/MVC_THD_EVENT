@@ -157,7 +157,7 @@
                 <p class="mt-3">
                     THD sẽ không ngừng nỗ lực để tạo nên sự kiện nổi bật.
                 </p>
-                <a href="#" class="btn btn-lg btn-outline-blue rounded-0 text-uppercase">
+                <a href="#" class="btn btn-lg btn-outline-blue rounded-4 text-uppercase">
                     Xem tất cả dự án
                 </a>
             </div>
@@ -165,7 +165,7 @@
             <div id="carouselProject" class="carousel slide mt-lg-5" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <?php foreach (ARR_P as $i => $project) : ?>
-                    <div class="carousel-item <?= $i == 0 ? 'active' : '' ?>"  data-bs-interval="2000">
+                    <div class="carousel-item  rounded-4 overflow-hidden <?= $i == 0 ? 'active' : '' ?>"  data-bs-interval="2000">
                         <div class="d-flex flex-column flex-lg-row">
                             <div class="col-12 col-lg-3 d-flex flex-column justify-content-between bg-light p-3">
                                 <div class="">
