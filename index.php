@@ -2,9 +2,6 @@
 # [FILE]
 require_once 'autoload.php';
 
-# [AUTO LOGIN]
-auto_login();
-
 # [ACTION]
 if(isset($_GET['act']) && $_GET['act']) {
     // hàm explode : tạo mảng bởi dấu phân cách
