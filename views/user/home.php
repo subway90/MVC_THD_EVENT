@@ -1,10 +1,31 @@
 <!-- outer content-->
 <div class="outer__inner">
     <!-- Section Hero -->
-    <div class="container-fluid section-hero position-relative p-0">
-        <div class="position-absolute bg-dark bg-opacity-25 w-100 h-100 d-flex flex-column justify-content-end align-items-center pb-4">
-            <div class="d-flex align-items-center justify-content-center">
-                <span id="slogan" class="line-slogan"></span>
+    <div class="container-fluid p-0">
+        <div id="carouselSlideBanner" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner position-relative border-bottom">
+                <?php foreach (SLIDE_BANNER as $i => $slide) : ?>
+                <div class="carousel-item <?= $i == 0 ? 'active' : '' ?>"  data-bs-interval="5500">
+                    <img src="<?= URL_STORAGE.$slide['img'] ?>" alt="<?= $slide['img'] ?>" class="w-100 img-banner">
+                </div>
+                <?php endforeach ?>
+                
+                <div class="position-absolute w-100 h-100 d-flex flex-column justify-content-end align-items-center">
+                    
+                    <div class="d-flex align-items-center justify-content-center">
+                        <span id="slogan" class="line-slogan text-blue fw-bold"></span>
+                    </div>
+
+                    <div class="d-flex justify-content-center align-items-center gap-3">
+                        <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselSlideBanner" data-bs-slide="prev">
+                            <i class="bi bi-arrow-left fs-4 text-blue"></i>
+                        </button>
+                        <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselSlideBanner" data-bs-slide="next">
+                            <i class="bi bi-arrow-right fs-4 text-blue"></i>
+                        </button>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>

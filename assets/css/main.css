@@ -186,23 +186,35 @@ html {
     background-color: var(--color-blue-40);
 }
 
-.section-hero {
-    height: 90vh;
-    background-image: url('../file/system/hero_banner.webp');
-    background-repeat: round;
-}
-
 .line-slogan {
     font-size: 22px;
     font-style: italic;
     font-weight: 500;
-    height: 24px;
     font-family: 'Montserrat',sans-serif;
     color: #ffffff;
     padding-bottom:30px;
+    background-color: #ffffff80;
+    padding: 2px 24px;
+    border-radius: 5px;
 
 }
 
+.img-banner {
+    margin-top: 10vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .img-banner {
+        object-fit: fill;
+        height: 50vh;
+    }
+    .line-slogan {
+        text-align: center;
+        height: 16px;
+        font-size: 13px;
+
+    }
+}
 
 #running_banner {
     overflow: hidden; /* Ẩn phần không nhìn thấy */
@@ -252,19 +264,6 @@ html {
 
 .bg-zalo {
     background-color: #069FEF;
-}
-
-
-@media only screen and (max-width: 767px) {
-    .section-hero {
-        height: 60vh;
-    }
-    .line-slogan {
-        text-align: center;
-        height: 14px;
-        font-size: 14px;
-        padding-bottom:120px;
-    }
 }
 
 
