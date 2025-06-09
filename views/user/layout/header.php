@@ -146,10 +146,10 @@
                         <a class="header__item nav-link link-dark text-uppercase" href="#">Địa Điểm Nổi Bật</a>
                     </div>
                     <div class="header__item header__item_dropdown js-header-item">
-                        <a class="header__item nav-link link-dark text-uppercase" href="#">Tin Tức</a>
+                        <a class="header__item nav-link link-dark text-uppercase" href="#">Dự án</a>
                     </div>
                     <div class="header__item header__item_dropdown js-header-item">
-                        <a class="header__item nav-link link-dark text-uppercase" href="#">Dự án</a>
+                        <a class="header__item nav-link link-dark text-uppercase" href="#">Tin Tức</a>
                     </div>
                     <div class="header__item header__item_dropdown js-header-item">
                         <a class="header__item nav-link link-dark text-uppercase" href="#">Liên Hệ</a>
