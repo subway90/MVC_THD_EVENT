@@ -18,7 +18,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@ui8">
     <meta name="twitter:title" content="<?= WEB_DESCRIPTION ?>">
-    <meta name="twitter:description" content="Epic Travel Shopping Design Kit">
+    <meta name="twitter:description" content="<?= WEB_DESCRIPTION ?>">
     <meta name="twitter:creator" content="@ui8">
     <meta name="twitter:image" content="https://ui8-fleet-html.herokuapp.com/<?= URL_STORAGE ?>/system/twitter-card.jpg">
     <meta property="og:title" content="Fleet – Travel Shopping UI Kit">
