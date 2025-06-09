@@ -99,8 +99,8 @@
                 <div class="browse__wrapper">
                     <div class="row">
                         <?php foreach (ARR_S_3 as $i => $service) :?>
-                        <a class="col-6 col-lg-3 mb-2 mb-lg-5 link-blue" href="stays-category.html">
-                            <div class="browse__preview">
+                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 link-blue" href="stays-category.html">
+                            <div class="browse__preview mb-2 mb-lg-4">
                                 <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
                             <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
@@ -117,8 +117,8 @@
                 <div class="browse__wrapper">
                     <div class="row">
                         <?php foreach (ARR_S_4 as $i => $service) :?>
-                        <a class="col-6 col-lg-3 mb-2 mb-lg-5 link-blue" href="stays-category.html">
-                            <div class="browse__preview">
+                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 link-blue" href="stays-category.html">
+                            <div class="browse__preview mb-2 mb-lg-4">
                                 <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
                             <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
