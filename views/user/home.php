@@ -63,8 +63,8 @@
                 <div class="browse__wrapper">
                     <div class="row">
                         <?php foreach (ARR_S_1 as $i => $service) :?>
-                        <a class="col-6 col-lg-3 mb-2 mb-lg-5 link-blue" href="stays-category.html">
-                            <div class="browse__preview">
+                        <a class="col-4 col-lg-3 mb-4 mb-lg-5 link-blue" href="stays-category.html">
+                            <div class="browse__preview mb-2 mb-lg-4">
                                 <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
                             <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
@@ -79,10 +79,10 @@
                     <h2 class="ff-main browse__title fw-bold h2">Tổ chức team building</h2>
                 </div>
                 <div class="browse__wrapper">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <?php foreach (ARR_S_2 as $i => $service) :?>
-                        <a class="col-6 col-lg-3 mb-2 mb-lg-5 link-blue" href="stays-category.html">
-                            <div class="browse__preview">
+                        <a class="col-4 col-lg-3 mb-4 mb-lg-5 link-blue" href="stays-category.html">
+                            <div class="browse__preview mb-2 mb-lg-4">
                                 <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
                             <div class="browse__subtitle text-center"><?= $service['name'] ?></div>

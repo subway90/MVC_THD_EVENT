@@ -104,7 +104,7 @@
 
 <!-- CTA Contact -->
 <div class="position-fixed bottom-0 end-0">
-    <div class="d-flex flex-column gap-3 pb-2 pb-lg-5 pe-4 mb-5">
+    <div class="d-flex flex-column gap-3 pb-2 pb-lg-5 pe-lg-4 pe-2 mb-5">
         <a target="_blank" href="tel:0968342020" class="btn-cta bg-danger">
             <i class="bi bi-telephone fs-5"></i>
         </a>

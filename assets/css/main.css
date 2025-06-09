@@ -7006,7 +7006,6 @@ body.dark .browse__card:hover {
 
 .browse__preview {
     position: relative;
-    margin-bottom: 20px;
     overflow: hidden;
     border-radius: 24px;
 }
@@ -7036,10 +7035,14 @@ body.dark .browse__card:hover {
 }
 
 .browse__subtitle {
-    margin-bottom: 8px;
     font-size: 16px;
-    line-height: 1.5;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 1023px) {
+    .browse__subtitle {
+        font-size: 13px;
+    }
 }
 
 .browse__content {
