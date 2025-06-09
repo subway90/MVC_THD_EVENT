@@ -78,23 +78,27 @@
             </div>
 
             <div class="col-12 col-lg-6 d-none d-lg-inline">
-                <div class="text-center text-lg-start">
-                    <h4 class="fw-bold text-blue">THD EVENT</h4>
-                    <h4 class="fw-bold text-blue">Tổ chức sự kiện chuyên nghiệp uy tín</h4>
+                <div class="d-flex flex-column justify-content-between h-100">
+                    <div class="">
+                        <div class="text-center text-lg-start">
+                            <h4 class="fw-bold text-blue">THD EVENT</h4>
+                            <h4 class="fw-bold text-blue">Tổ chức sự kiện chuyên nghiệp uy tín</h4>
+                        </div>
+                        
+                        <div class="text-start">
+                            <p class="mt-3">
+                                THD Event là đơn vị chuyên hoạt động trong lĩnh vực tổ chức sự kiện, hội nghị, hội thảo, teambuilding… cung cấp thiết bị sự kiện, nhân sự sự kiện cao cấp. Với hơn 8 năm kinh nghiệm cùng hàng trăm sự kiện đa dạng, chúng tôi tự hào mang đến giải pháp toàn diện – từ ý tưởng đến hiện thực.
+                            </p>
+                            <p class="mt-3">
+                                Cam kết "Không ngừng vươn tới đỉnh cao – Kiến tạo giá trị bền vững", THD Travel & Event chính là đối tác lý tưởng cho những trải nghiệm ấn tượng và khác biệt. Hãy cùng chúng tôi biến mọi khoảnh khắc thành tuyệt tác!
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn rounded-4 btn-outline-blue col-12 col-lg-6 text-blue">
+                        Về chúng tôi
+                    </a>
                 </div>
-                
-                <div class="text-start">
-                    <p class="mt-3">
-                        THD Event là đơn vị chuyên hoạt động trong lĩnh vực tổ chức sự kiện, hội nghị, hội thảo, teambuilding… cung cấp thiết bị sự kiện, nhân sự sự kiện cao cấp. Với hơn 8 năm kinh nghiệm cùng hàng trăm sự kiện đa dạng, chúng tôi tự hào mang đến giải pháp toàn diện – từ ý tưởng đến hiện thực.
-                    </p>
-                    <p class="mt-3">
-                        Cam kết "Không ngừng vươn tới đỉnh cao – Kiến tạo giá trị bền vững", THD Travel & Event chính là đối tác lý tưởng cho những trải nghiệm ấn tượng và khác biệt. Hãy cùng chúng tôi biến mọi khoảnh khắc thành tuyệt tác!
-                    </p>
-                </div>
-                
-                <a href="#" class="btn rounded-4 btn-outline-blue col-12 col-lg-6 mb-lg-3 text-blue">
-                    Về chúng tôi
-                </a>
             </div>
 
             <div class="col-12 d-block d-lg-none">
