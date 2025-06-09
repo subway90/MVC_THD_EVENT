@@ -187,15 +187,12 @@ html {
 }
 
 .line-slogan {
-    font-size: 22px;
+    font-size: 28px;
     font-style: italic;
     font-weight: 500;
     font-family: 'Montserrat',sans-serif;
     color: #ffffff;
-    padding-bottom:30px;
-    background-color: #ffffff80;
     padding: 2px 24px;
-    border-radius: 5px;
 
 }
 
@@ -210,9 +207,7 @@ html {
     }
     .line-slogan {
         text-align: center;
-        height: 16px;
-        font-size: 13px;
-
+        font-size: 14px;
     }
 }
 

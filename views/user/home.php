@@ -12,10 +12,6 @@
                 
                 <div class="position-absolute w-100 h-100 d-flex flex-column justify-content-end align-items-center">
                     
-                    <div class="d-flex align-items-center justify-content-center">
-                        <span id="slogan" class="line-slogan text-blue fw-bold"></span>
-                    </div>
-
                     <div class="d-flex justify-content-center align-items-center gap-3">
                         <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselSlideBanner" data-bs-slide="prev">
                             <i class="bi bi-arrow-left fs-4 text-blue"></i>
@@ -28,6 +24,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid text-center pt-lg-5 pt-3">
+        <span id="slogan" class="line-slogan text-blue fw-bold"></span>
     </div>
 
     <!-- Section Introduce Company -->
