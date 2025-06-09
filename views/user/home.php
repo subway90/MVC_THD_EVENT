@@ -10,7 +10,7 @@
     </div>
 
     <!-- Section Introduce Company -->
-    <div class="container-fluid px-0 bg-blue d-flex justify-content-center">
+    <div class="container-fluid px-0 d-flex justify-content-center">
         <style>
             .video-container {
                 position: relative;
@@ -40,10 +40,10 @@
             </div>
             <div class="col-12 col-lg-5 ff-main d-flex flex-column align-items-center align-items-center align-items-lg-start justify-content-between ps-lg-6">
                 <div class="text-center text-lg-start">
-                    <h4 class="fw-bold">
+                    <h4 class="fw-bold text-blue">
                         THD EVENT
                     </h4>
-                    <h4 class="fw-bold">
+                    <h4 class="fw-bold text-blue">
                         Tổ chức sự kiện chuyên nghiệp uy tín
                     </h4>
                     <p class="mt-3">
@@ -54,7 +54,7 @@
                         Cam kết "Không ngừng vươn tới đỉnh cao – Kiến tạo giá trị bền vững", THD Travel & Event chính là đối tác lý tưởng cho những trải nghiệm ấn tượng và khác biệt. Hãy cùng chúng tôi biến mọi khoảnh khắc thành tuyệt tác!
                     </p>
                 </div>
-                <a href="#" class="btn rounded-4 btn-outline-blue col-12 col-lg-6 mb-lg-3">
+                <a href="#" class="btn rounded-4 btn-outline-blue col-12 col-lg-6 mb-lg-3 text-blue">
                     Về chúng tôi
                 </a>
             </div>
@@ -65,7 +65,7 @@
     <div class="section browse">
         <div class="browse__center center">
             <div class="py-5 text-center">
-                <h1 class="ff-main fw-bold">
+                <h1 class="ff-main fw-bold text-blue">
                     Dịch vụ của chúng tôi
                 </h1>
                 <div class="fs-5">
@@ -74,7 +74,7 @@
             </div>
             <div class="browse__inner">
                 <div class="text-center mb-4">
-                    <h2 class="ff-main browse__title fw-bold h2">Tổ chức sự kiện</h2>
+                    <h2 class="ff-main browse__title fw-bold h2 text-blue">Tổ chức sự kiện</h2>
                 </div>
                 <div class="browse__wrapper">
                     <div class="row">
@@ -92,7 +92,7 @@
 
             <div class="browse__inner">
                 <div class="text-center mb-4">
-                    <h2 class="ff-main browse__title fw-bold h2">Tổ chức team building</h2>
+                    <h2 class="ff-main browse__title fw-bold h2 text-blue">Tổ chức team building</h2>
                 </div>
                 <div class="browse__wrapper">
                     <div class="row">
@@ -110,7 +110,7 @@
 
             <div class="browse__inner">
                 <div class="text-center mb-4">
-                    <h2 class="ff-main browse__title fw-bold h2">Thuê nhân sự sự kiện</h2>
+                    <h2 class="ff-main browse__title fw-bold h2 text-blue">Thuê nhân sự sự kiện</h2>
                 </div>
                 <div class="browse__wrapper">
                     <div class="row">
@@ -128,7 +128,7 @@
 
             <div class="browse__inner">
                 <div class="text-center mb-4">
-                    <h2 class="ff-main browse__title fw-bold h2">Cho thuê thiết bị sự kiện</h2>
+                    <h2 class="ff-main browse__title fw-bold h2 text-blue">Cho thuê thiết bị sự kiện</h2>
                 </div>
                 <div class="browse__wrapper">
                     <div class="row">

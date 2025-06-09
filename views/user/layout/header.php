@@ -60,7 +60,7 @@
     <!-- outer-->
     <div class="outer">
         <!-- header-->
-        <header class="header js-header authorization fixed-top">
+        <header class="header js-header authorization fixed-top border-bottom shadow">
             <div class="header__center center">
                 <a class="header__logo" href="<?= URL ?>">
                     <img class="some-icon" src="<?= WEB_LOGO ?>" alt="Fleet">
@@ -80,24 +80,11 @@
                         <a class="d-lg-none header__item nav-link link-dark text-uppercase" href="#">Tổ Chức Sự Kiện</a>
                         <div class="header__body js-header-body">
                             <div class="header__menu">
-                                <a class="header__link" href="#">
-                                    Team Building
+                                <?php foreach (ARR_S_1 as $service) : ?>
+                                <a class="header__link text-uppercase text-nowrap" href="#">
+                                    <?= $service['name'] ?>
                                 </a>
-                                <a class="header__link" href="#">
-                                    Du Lịch Nghỉ Dưỡng
-                                </a>
-                                <a class="header__link" href="#">
-                                    Cho Thuê Thiết Bị Sự Kiện
-                                </a>
-                                <a class="header__link" href="#">
-                                    Tổ Chức Hội Nghị - Hội Thảo - Workshop
-                                </a>
-                                <a class="header__link" href="#">
-                                    Tổ Chức End Year Party - Tiệc Tất Niên
-                                </a>
-                                <a class="header__link" href="#">
-                                    Tổ Chức Khai Trương - Khánh Thành
-                                </a>
+                                <?php endforeach ?>
                             </div>
                         </div>
                     </div>
@@ -111,15 +98,11 @@
                         <a class="d-lg-none header__item nav-link link-dark text-uppercase" href="#">Tổ Chức Team Building</a>
                         <div class="header__body js-header-body">
                             <div class="header__menu">
-                                <a class="header__link" href="#">
-                                    Miền Bắc
+                                <?php foreach (ARR_S_2 as $service) : ?>
+                                <a class="header__link text-uppercase text-nowrap" href="#">
+                                    <?= $service['name'] ?>
                                 </a>
-                                <a class="header__link" href="#">
-                                    Miền Trung
-                                </a>
-                                <a class="header__link" href="#">
-                                    Miền Nam
-                                </a>
+                                <?php endforeach ?>
                             </div>
                         </div>
                     </div>
@@ -133,15 +116,11 @@
                         <a class="d-lg-none header__item nav-link link-dark text-uppercase" href="#">Nhân Sự Sự Kiện</a>
                         <div class="header__body js-header-body">
                             <div class="header__menu">
-                                <a class="header__link" href="#">
-                                    Miền Bắc
+                                <?php foreach (ARR_S_3 as $service) : ?>
+                                <a class="header__link text-uppercase text-nowrap" href="#">
+                                    <?= $service['name'] ?>
                                 </a>
-                                <a class="header__link" href="#">
-                                    Miền Trung
-                                </a>
-                                <a class="header__link" href="#">
-                                    Miền Nam
-                                </a>
+                                <?php endforeach ?>
                             </div>
                         </div>
                     </div>
@@ -155,15 +134,11 @@
                         <a class="d-lg-none header__item nav-link link-dark text-uppercase" href="#">Thiết Bị Sự Kiện</a>
                         <div class="header__body js-header-body">
                             <div class="header__menu">
-                                <a class="header__link" href="#">
-                                    Miền Bắc
+                                <?php foreach (ARR_S_4 as $service) : ?>
+                                <a class="header__link text-uppercase text-nowrap" href="#">
+                                    <?= $service['name'] ?>
                                 </a>
-                                <a class="header__link" href="#">
-                                    Miền Trung
-                                </a>
-                                <a class="header__link" href="#">
-                                    Miền Nam
-                                </a>
+                                <?php endforeach ?>
                             </div>
                         </div>
                     </div>
