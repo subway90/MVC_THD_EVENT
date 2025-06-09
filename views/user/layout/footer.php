@@ -1,7 +1,7 @@
 <!-- Section Footer -->
 <footer class="container-fluid d-flex justify-content-center pt-4 pb-2">
   <div class="container row px-0">
-    <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row align-items-center">
+    <div class="col-12 col-lg-6 d-flex flex-column flex-lg-row align-items-center  align-items-lg-start">
       <div class="col-4 col-lg-2">
         <img src="<?= WEB_FAVICON ?>" alt="logo favicon" class="w-100 mb-3 mb-lg-0">
       </div>
