@@ -208,6 +208,7 @@ html {
     .line-slogan {
         text-align: center;
         font-size: 14px;
+        padding: none;
     }
 }
 

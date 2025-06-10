@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <div class="container-fluid text-center pt-lg-5 pt-3">
+    <div class="container-fluid d-flex justify-content-center text-center px-0 pt-lg-5 pt-3">
         <span id="slogan" class="line-slogan text-blue fw-bold"></span>
     </div>
 
