@@ -61,8 +61,8 @@
 
             <div class="col-12 d-inline d-lg-none">
                 <div class="text-center text-lg-start">
-                    <h4 class="fw-bold text-blue">THD EVENT</h4>
-                    <h4 class="fw-bold text-blue">Tổ chức sự kiện chuyên nghiệp uy tín</h4>
+                    <h5 class="fw-bold text-blue">THD EVENT</h5>
+                    <h5 class="fw-bold text-blue text-nowrap small">Tổ chức sự kiện chuyên nghiệp uy tín</h5>
                 </div>
             </div>
     
