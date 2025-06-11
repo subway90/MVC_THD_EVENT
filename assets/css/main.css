@@ -262,6 +262,11 @@ html {
     background-color: #069FEF;
 }
 
+.icon-breadrumb {
+    font-size: 10px !important;
+    font-weight: 900;
+}
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -3201,6 +3206,12 @@ body.dark .select-empty .option.selected {
 
 .align-baseline {
     align-items: baseline;
+}
+
+
+.checkbox-compare {
+    width: 24px;
+    height: 24px;
 }
 
 @media only screen and (max-width: 1179px) {
@@ -6331,6 +6342,7 @@ body.dark .loader {
 }
 
 .nav__link {
+    text-decoration: none;
     display: flex;
     padding: 6px 12px;
     border-radius: 14px;
@@ -6403,12 +6415,6 @@ body.dark .nav__link.active .icon {
     .travels__center {
         padding: 0;
     }
-}
-
-.travels__wrapper {
-    padding: 80px;
-    border-radius: 24px;
-    background: #F4F5F6;
 }
 
 @media only screen and (max-width: 1419px) {
@@ -6521,28 +6527,23 @@ body.dark .travels__wrapper {
 }
 
 .travels__card {
+    text-decoration: none;
     flex: 0 0 calc(25% - 32px);
-    width: calc(25% - 32px);
-    margin: 32px 16px 0;
     border-radius: 16px;
     overflow: hidden;
-    background: #FCFCFD;
+    background: #f4f4f4;
     color: #23262F;
 }
 
 @media only screen and (max-width: 1339px) {
     .travels__card {
         flex: 0 0 calc(25% - 20px);
-        width: calc(25% - 20px);
-        margin: 32px 10px 0;
     }
 }
 
 @media only screen and (max-width: 1179px) {
     .travels__card {
         flex: 0 0 calc(33.333% - 32px);
-        width: calc(33.333% - 32px);
-        margin: 32px 16px 0;
     }
 }
 
@@ -6556,8 +6557,6 @@ body.dark .travels__wrapper {
 @media only screen and (max-width: 767px) {
     .travels__card {
         display: block;
-        width: 100%;
-        margin: 32px 0 0;
     }
 }
 
@@ -6610,11 +6609,12 @@ body.dark .travels__card:hover .travels__subtitle {
 }
 
 .travels__body {
-    padding: 20px;
+    padding: 0;
 }
 
 .travels__line {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -6647,7 +6647,9 @@ body.dark .travels__location {
 }
 
 .travels__price {
-    margin-left: 16px;
+    text-wrap: nowrap;
+    height: 24px;
+    margin-top: 12px;
     padding: 6px 8px;
     box-shadow: inset 0 0 0 2px #58C27D;
     border-radius: 4px;
@@ -6658,6 +6660,26 @@ body.dark .travels__location {
     text-transform: uppercase;
     color: #58C27D;
 }
+
+.travels__price__blue {
+    height: 24px;
+    margin-top: 12px;
+    padding: 6px 8px;
+    box-shadow: inset 0 0 0 2px var(--color-dark-blue);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-dark-blue);
+}
+
+.travels__check {
+    margin-top: 12px;
+    text-align: center;
+}
+
 
 .travels__old {
     margin-bottom: 6px;

@@ -143,7 +143,7 @@
                         </div>
                     </div>
                     <div class="header__item header__item_dropdown js-header-item">
-                        <a class="header__item nav-link link-dark text-uppercase" href="#">Địa Điểm Nổi Bật</a>
+                        <a class="header__item nav-link link-dark text-uppercase" href="/dia-diem-noi-bat">Địa Điểm Nổi Bật</a>
                     </div>
                     <div class="header__item header__item_dropdown js-header-item">
                         <a class="header__item nav-link link-dark text-uppercase" href="#">Dự án</a>
