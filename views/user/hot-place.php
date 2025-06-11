@@ -74,9 +74,17 @@
                 <?php endforeach ?>
             </div>
             <div class="text-center py-3 py-lg-5">
-                <button class="btn btn-outline-blue">
+
+                <!-- <form action="" method="post">
+                    <button class="btn btn-outline-blue">
+                        So sánh
+                    </button>
+                </form> -->
+
+                <!-- Demo Button So Sánh -->
+                <a href="<?= URL ?>so-sanh-dia-diem-noi-bat" class="btn btn-outline-blue">
                     So sánh
-                </button>
+                </a>
             </div>
         </div>
     </div>

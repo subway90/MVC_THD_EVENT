@@ -7060,6 +7060,38 @@ body.dark .browse__card:hover {
     transition: calc(0.5s);
 }
 
+.card-compare {
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px 0px #DDDDDD;
+    transition: calc(0.3s);
+}
+
+.card-compare:hover {
+    box-shadow: 0 5px 8px 0px #BBBBBB;
+    transition: calc(0.5s);
+}
+
+.card-compare .name {
+    font-size: 18px;
+}
+
+.badge-util {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--color-blue-60);
+    color: #4B5563;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.badge-util i {
+    width: 16px;
+    color: #3B82F6;
+}
+
 .card-service img {
     height: 200px;
 }
@@ -7097,6 +7129,9 @@ body.dark .browse__card:hover {
 
     .card-service .name-service {
         font-size: 13px !important;
+    }
+    .card-compare .name {
+        font-size: 14px;
     }
 }
 
