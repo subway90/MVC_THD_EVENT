@@ -348,7 +348,7 @@
                                 <div class="col-12 col-lg-4 p-2">
                                     <div class="bg-light rounded-3 p-3 card-feedback">
                                         <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" width="40" src="<?= DEFAULT_AVATAR ?>" alt="">
+                                            <img class="rounded-circle me-3" width="40" src="<?= URL_STORAGE . $card['avatar'] ?>" alt="">
                                             <div class="">
                                                 <div class="fw-bold">
                                                     <?= $card['name'] ?>
