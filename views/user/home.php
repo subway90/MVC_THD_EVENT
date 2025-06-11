@@ -131,16 +131,18 @@
             </div>
             <div class="browse__inner">
                 <div class="text-center mb-4">
-                    <h2 class="ff-main browse__title fw-bold h2 text-blue">Tổ chức sự kiện</h2>
+                    <h2 class="ff-main browse__title fw-bold h2 text-blue text-uppercase">Tổ chức sự kiện</h2>
                 </div>
                 <div class="browse__wrapper">
                     <div class="row">
                         <?php foreach (ARR_S_1 as $i => $service) :?>
-                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 link-blue" href="#">
-                            <div class="browse__preview mb-2 mb-lg-4">
-                                <img class="w-100 rounded-4" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 text-decoration-none px-1 px-lg-2" href="#">
+                            <div class="card-service h-100">
+                                <div class="mb-1">
+                                    <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                                </div>
+                                <div class="name-service d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
                             </div>
-                            <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
                         </a>
                         <?php endforeach ?>
                     </div>
@@ -149,16 +151,18 @@
 
             <div class="browse__inner">
                 <div class="text-center mb-4">
-                    <h2 class="ff-main browse__title fw-bold h2 text-blue">Tổ chức team building</h2>
+                    <h2 class="ff-main browse__title fw-bold h2 text-blue text-uppercase">Tổ chức team building</h2>
                 </div>
                 <div class="browse__wrapper">
                     <div class="row">
                         <?php foreach (ARR_S_2 as $i => $service) :?>
-                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 link-blue" href="#">
-                            <div class="browse__preview mb-2 mb-lg-4">
-                                <img class="w-100 rounded-4" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 text-decoration-none px-1 px-lg-2" href="#">
+                            <div class="card-service h-100">
+                                <div class="mb-1">
+                                    <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                                </div>
+                                <div class="name-service d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
                             </div>
-                            <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
                         </a>
                         <?php endforeach ?>
                     </div>
@@ -167,16 +171,18 @@
 
             <div class="browse__inner">
                 <div class="text-center mb-4">
-                    <h2 class="ff-main browse__title fw-bold h2 text-blue">Thuê nhân sự sự kiện</h2>
+                    <h2 class="ff-main browse__title fw-bold h2 text-blue text-uppercase">Thuê nhân sự sự kiện</h2>
                 </div>
                 <div class="browse__wrapper">
                     <div class="row">
                         <?php foreach (ARR_S_3 as $i => $service) :?>
-                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 link-blue" href="#">
-                            <div class="browse__preview mb-2 mb-lg-4">
-                                <img class="w-100 rounded-4" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 text-decoration-none px-1 px-lg-2" href="#">
+                            <div class="card-service h-100">
+                                <div class="mb-1">
+                                    <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                                </div>
+                                <div class="name-service d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
                             </div>
-                            <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
                         </a>
                         <?php endforeach ?>
                     </div>
@@ -185,16 +191,18 @@
 
             <div class="browse__inner">
                 <div class="text-center mb-4">
-                    <h2 class="ff-main browse__title fw-bold h2 text-blue">Cho thuê thiết bị sự kiện</h2>
+                    <h2 class="ff-main browse__title fw-bold h2 text-blue text-uppercase">Cho thuê thiết bị sự kiện</h2>
                 </div>
                 <div class="browse__wrapper">
                     <div class="row">
                         <?php foreach (ARR_S_4 as $i => $service) :?>
-                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 link-blue" href="#">
-                            <div class="browse__preview mb-2 mb-lg-4">
-                                <img class="w-100 rounded-4" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                        <a class="col-6 col-lg-3 mb-4 mb-lg-5 text-decoration-none px-1 px-lg-2" href="#">
+                            <div class="card-service h-100">
+                                <div class="mb-1">
+                                    <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
+                                </div>
+                                <div class="name-service d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
                             </div>
-                            <div class="browse__subtitle text-center"><?= $service['name'] ?></div>
                         </a>
                         <?php endforeach ?>
                     </div>
