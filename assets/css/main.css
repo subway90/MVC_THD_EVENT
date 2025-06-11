@@ -7056,6 +7056,20 @@ body.dark .browse__card:hover {
     height: 200px;
 }
 
+.carousel-indicators [data-bs-target] {
+    margin: 0 !important;
+    border: 1px solid transparent !important;
+    border-radius: 8px;
+    background-color: var(--color-dark-blue) !important;
+    height: 8px !important;
+    width: 8px !important;
+}
+
+.carousel-indicators .active {
+    background-color: var(--color-dark-blue) !important;
+    width: 42px !important;
+}
+
 @media only screen and (max-width: 1023px) {
 
     .card-service img {

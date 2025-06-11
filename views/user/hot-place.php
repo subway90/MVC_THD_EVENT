@@ -1,31 +1,3 @@
-<!-- Section Hero -->
-<div class="container-fluid p-0">
-    <div id="carouselSlideBanner" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner position-relative border-bottom">
-            <?php foreach (SLIDE_BANNER as $i => $slide): ?>
-                <div class="carousel-item <?= $i == 0 ? 'active' : '' ?>" data-bs-interval="5500">
-                    <img src="<?= URL_STORAGE . $slide['img'] ?>" alt="<?= $slide['img'] ?>" class="w-100 img-banner">
-                </div>
-            <?php endforeach ?>
-
-            <div class="position-absolute w-100 h-100 d-flex flex-column justify-content-end align-items-center">
-
-                <div class="d-flex justify-content-center align-items-center gap-3">
-                    <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselSlideBanner"
-                        data-bs-slide="prev">
-                        <i class="bi bi-arrow-left fs-4 text-blue"></i>
-                    </button>
-                    <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselSlideBanner"
-                        data-bs-slide="next">
-                        <i class="bi bi-arrow-right fs-4 text-blue"></i>
-                    </button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Section Breadcrumb -->
 <div class="container-fluid p-0 py-3 py-lg-5">
     <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center">

@@ -158,3 +158,21 @@
                 <button class="header__burger js-header-burger"></button>
             </div>
         </header>
+
+        <!-- Section Hero -->
+        <div class="container-fluid p-0 position-relative">
+            <div id="carouselSlideBanner" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <?php foreach (SLIDE_BANNER as $i => $slide): ?>
+                        <div class="carousel-item <?= $i == 0 ? 'active' : '' ?>" data-bs-interval="5500">
+                            <img src="<?= URL_STORAGE . $slide['img'] ?>" alt="<?= $slide['img'] ?>" class="w-100 img-banner">
+                        </div>
+                    <?php endforeach ?>
+                </div>
+                <div class="carousel-indicators position-relative px-0 pt-1 pt-lg-2 gap-1">
+                    <button class="active" type="button" data-bs-target="#carouselSlideBanner" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="" type="button" data-bs-target="#carouselSlideBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button class="" type="button" data-bs-target="#carouselSlideBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
