@@ -114,7 +114,7 @@
                             <div class="mb-1">
                                 <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
-                            <div class="name-service d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
+                            <div class="name-service text-uppercase d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
                         </div>
                     </a>
                     <?php endforeach ?>
@@ -134,7 +134,7 @@
                             <div class="mb-1">
                                 <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
-                            <div class="name-service d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
+                            <div class="name-service text-uppercase d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
                         </div>
                     </a>
                     <?php endforeach ?>
@@ -154,7 +154,7 @@
                             <div class="mb-1">
                                 <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
-                            <div class="name-service d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
+                            <div class="name-service text-uppercase d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
                         </div>
                     </a>
                     <?php endforeach ?>
@@ -174,7 +174,7 @@
                             <div class="mb-1">
                                 <img class="w-100" src="<?= URL_STORAGE.$service['img'] ?>" alt="<?= $service['img'] ?>">
                             </div>
-                            <div class="name-service d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
+                            <div class="name-service text-uppercase d-flex align-item-center justify-content-center text-blue fw-bold text-center p-1 p-lg-2"><?= $service['name'] ?></div>
                         </div>
                     </a>
                     <?php endforeach ?>
@@ -187,9 +187,9 @@
 
 <!-- Section Project -->
 <div class="container-fluid bg-blue">
-    <div class="container px-lg-5 py-5">
-        <div class="mb-3">
-            <h1 class="ff-main fw-bold text-uppercase">
+    <div class="container text-center px-lg-5 py-5">
+        <div class="mb-3 mb-lg-5">
+            <h1 class="ff-main fw-bold text-uppercase text-blue">
                 Các dự án của THD
             </h1>
             <p class="mt-3">
@@ -286,7 +286,7 @@
 <div class="container-fluid text-center">
     <div class="container">
         <div class="row">
-            <div class="col-12 h1 ff-main fw-bold py-3">
+            <div class="col-12 h1 ff-main text-uppercase text-blue fw-bold py-3">
                 Khách hàng tiêu biểu
             </div>
             <?php foreach (ARR_B_C as $i => $brand) : ?>
@@ -300,7 +300,7 @@
 
 <!-- Section Brand Partners -->
 <div class="py-3">
-    <div class="col-12 h1 py-3 ff-main fw-bold text-center">
+    <div class="col-12 h1 py-3 ff-main fw-bold text-center text-uppercase text-blue">
         Đối tác tiêu biểu
     </div>
     <div class="container-fluid bg-blue">
@@ -316,7 +316,7 @@
 <div class="container-fluid py-5">
     <div class="container px-0">
         <div class="travel__head mb-3">
-            <h2 class="travel__title ff-main fw-bold h2">Khách hàng nói về chúng tôi</h2>
+            <h2 class="travel__title ff-main fw-bold h2 text-uppercase text-blue">Khách hàng nói về chúng tôi</h2>
             <div class="travel__info ff-main info">Niềm tin được xây dựng từ sự trải nghiệm</div>
         </div>
         
