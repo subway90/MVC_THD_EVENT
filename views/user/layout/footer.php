@@ -49,7 +49,10 @@
         <style>
           iframe {
             border-radius: 16px; /* Bo tròn các góc với độ cong 24px */
-        }
+          }
+          .fb-page {
+            width: 100%;
+          }
         </style>
         <div class="fb-page" 
          data-href="https://www.facebook.com/thdtravel.event" 
