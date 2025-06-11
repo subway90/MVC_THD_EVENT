@@ -27,7 +27,7 @@
 </div>
 
 <!-- Section Breadcrumb -->
-<div class="container-fluid p-0 py-5">
+<div class="container-fluid p-0 py-3 py-lg-5">
     <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center">
         <a href="/" class="btn btn-outline-blue rounded-4 px-3">
             <i class="bi bi-chevron-left small me-1"></i>
@@ -68,8 +68,8 @@
             </div>
             <div class="travels__list row px-0">
                 <?php foreach (ARR_HOT_PLACE as $i => $card) : ?>
-                <a class="text-decoration-none col-6 col-lg-3 mb-3" href="#">
-                    <div class="travels__card">
+                <div class="text-decoration-none col-6 col-lg-3 mb-3">
+                    <div class="travels__card w-100">
                         <div class="travels__preview">
                             <img src="<?= URL_STORAGE.$card['img'] ?>" alt="Card">
                         </div>
@@ -79,27 +79,29 @@
                                     <div class="travels__subtitle"><?= $card['name'] ?></div>
                                     <div class="travels__location"><?= $card['desc'] ?></div>
                                 </div>
-                                <div class="d-flex gap-2">
-                                    <div class="travels__price">
+                                <div class="d-flex flex-column flex-lg-row w-100 gap-lg-2">
+                                    <a href="<?= URL ?>chi-tiet-dia-diem-noi-bat" class="travels__price text-decoration-none">
                                         <div class="travels__actual">Khám phá</div>
-                                    </div>
-                                    <button class="travels__price__blue" for="hotPlace<?= $i ?>">
-                                        <div class="travels__actual">Chọn</div>
-                                    </button>
-                                    
-                                    <div class="travels__check">
-                                        <input class="checkbox-compare"
-                                        type="checkbox" 
-                                        id="hotPlace<?= $i ?>">
+                                    </a>
+                                    <div class="d-flex justify-content-between gap-2">
+                                        <button class="travels__price__blue w-100" for="hotPlace<?= $i ?>">
+                                            <div class="travels__actual">Chọn</div>
+                                        </button>
+                                        
+                                        <div class="travels__check">
+                                            <input class="checkbox-compare"
+                                            type="checkbox" 
+                                            id="hotPlace<?= $i ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
                 <?php endforeach ?>
             </div>
-            <div class="text-center py-5">
+            <div class="text-center py-3 py-lg-5">
                 <button class="btn btn-outline-blue">
                     So sánh
                 </button>
