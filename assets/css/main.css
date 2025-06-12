@@ -112,6 +112,10 @@ html {
     color : #777E90 !important
 }
 
+.bg-neutral {
+    background-color : #777E90 !important
+}
+
 img,
 fieldset,
 a img {
@@ -208,7 +212,16 @@ html {
     margin-top: 8vh;
 }
 
+.img-compare {
+    min-width: 400px;
+    max-width: 400px;
+}
+
 @media only screen and (max-width: 767px) {
+    .img-compare {
+        min-width: 280px;
+        max-width: 280px;
+    }
     .img-banner {
         object-fit: fill;
         height: 50vh;
@@ -7072,7 +7085,7 @@ body.dark .browse__card:hover {
 }
 
 .card-compare .name {
-    font-size: 18px;
+    font-size: 18px ;
 }
 
 .badge-util {

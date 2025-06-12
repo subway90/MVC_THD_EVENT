@@ -1,5 +1,5 @@
 <!-- Section Breadcrumb -->
-<div class="container-fluid p-0 py-3 py-lg-5">
+<div style="background-color :#F1FAFF" class="container-fluid p-0 py-3 py-lg-5">
     <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center">
         <a href="/" class="btn btn-outline-blue rounded-4 px-3">
             <i class="bi bi-chevron-left small me-1"></i>
@@ -32,136 +32,425 @@
     </div>
 
     <!-- Table List Item Compare -->
-    <div class="container py-3">
-        <div class="d-flex gap-2 gap-lg-4">
-            <?php foreach (ARR_COMPARE as $item) : extract($item) ?>
-            <div class="col card-compare rounded-4">
-                <div class="rouded-4">
-                    <img src="<?= URL_STORAGE.$img?>" alt="image hot place" class="w-100 rounded-top-4">
-                </div>
-                <div class="row mx-0 h-100 p-lg-4 p-2">
+     <style>
+        tr {
+            background-color: transparent;
+        }
+        td {
+            padding: 0 20px !important;
+            background-color: transparent !important;
+            border-right: 1px solid#aaaaaa;
+            border-left: 1px solid #aaaaaa;
+            border-bottom: none;
+        }
+     </style>
+    <div class="px-lg-5 mx-lg-5 py-3">
+        <div class="table-responsive">
+            <table class="table">
+                <tbody>
+                    <!-- Image -->
+                    <tr>
+                        <td class="text-center">
+                            <img src="<?= URL_STORAGE?>room/1.jpg" alt="Ảnh" class="img-compare rounded-top-4">
+                        </td>
+                        <td class="text-center">
+                            <img src="<?= URL_STORAGE?>room/2.jpg" alt="Ảnh" class="img-compare rounded-top-4">
+                        </td>
+                        <td class="text-center">
+                            <img src="<?= URL_STORAGE?>room/3.jpg" alt="Ảnh" class="img-compare rounded-top-4">
+                        </td>
+                    </tr>
                     <!-- Name -->
-                    <h4 class="fw-bold">
-                        <?= $name ?>
-                    </h4>
+                    <tr>
+                        <td>
+                            <h4 class="fw-bold pt-4">
+                                Orchid By Wyndham Halong Ocean Park
+                            </h4>
+                        </td>
+                        <td>
+                            <h4 class="fw-bold pt-4">
+                                Villa By Wyndham Halong
+                            </h4>
+                        </td>
+                        <td>
+                            <h4 class="fw-bold pt-4">
+                                Resort By Wyndham Halong
+                            </h4>
+                        </td>
+                    </tr>
                     <!-- Address -->
-                    <div class="d-flex align-items-center fw-semibold text-muted gap-2">
-                        <i class="bi bi-geo-alt"></i>
-                        <small class="">
-                            Hạ Long, Quảng Ninh
-                        </small>
-                    </div>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center fw-semibold text-muted gap-2">
+                                <i class="bi bi-geo-alt"></i>
+                                <small class="">
+                                    Hạ Long, Quảng Ninh
+                                </small>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center fw-semibold text-muted gap-2">
+                                <i class="bi bi-geo-alt"></i>
+                                <small class="">
+                                    Hạ Long, Quảng Ninh
+                                </small>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center fw-semibold text-muted gap-2">
+                                <i class="bi bi-geo-alt"></i>
+                                <small class="">
+                                    Hạ Long, Quảng Ninh
+                                </small>
+                            </div>
+                        </td>
+                    </tr>
                     <!-- Feedback Star -->
-                    <div class="d-flex align-items-center gap-2">
-                        <div class="d-flex align-items-center gap-1">
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-half text-warning"></i>
-                        </div>
-                        <div class="small text-neutral">
-                            (4.5/5.0)
-                        </div>
-                    </div>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="d-flex align-items-center gap-1">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                </div>
+                                <div class="small text-neutral">
+                                    (4.5/5.0)
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="d-flex align-items-center gap-1">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                </div>
+                                <div class="small text-neutral">
+                                    (4.0/5.0)
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="d-flex align-items-center gap-1">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <div class="small text-neutral">
+                                    (5.0/5.0)
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
                     <!-- Hot option -->
-                    <div class="py-4">
-                        <h6 class="mb-2">Điểm nổi bật</h6>
-                        <div class="d-flex flex-column gap-2">
-                            <div class="d-flex align-items-center gap-2">
-                                <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
-                                <div class="small text-muted">
-                                    Bãi biển riêng chỉ cách 2 phút
+                    <tr>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Điểm nổi bật</h6>
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Bãi biển riêng chỉ cách 2 phút
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Bữa sáng miễn phí hàng ngày
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
-                                <div class="small text-muted">
-                                    Bữa sáng chất lượng cao với tầm nhìn ra biển
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Điểm nổi bật</h6>
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Bãi biển riêng chỉ cách 5 phút
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Phòng tắm khoáng miễn phí
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Bữa sáng miễn phí hàng ngày
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center gap-2">
-                                <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
-                                <div class="small text-muted">
-                                    Bữa sáng miễn phí hàng ngày
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Điểm nổi bật</h6>
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Có bãi tắm riêng, view phòng nhìn biển
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Dịch vụ spa & xông hơi miễn phí
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Bữa sáng miễn phí hàng ngày
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </td>
+                    </tr>
                     <!-- List type room -->
-                    <div class="py-4">
-                        <h6 class="mb-2">Loại phòng</h6>
-                        <div class="d-flex flex-column gap-2">
-                            <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
-                                <div style="font-size: 14px" class="fw-bold small">
-                                    Phòng sang trọng
-                                </div>
-                                <div style="font-size: 12px" class="small text-muted">
-                                    Phòng rộng rãi có tầm nhìn ra biển, giường cỡ lớn
+                    <tr>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Loại phòng</h6>
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            Phòng sang trọng
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                            Phòng rộng rãi có tầm nhìn ra biển, giường cỡ lớn
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            Phòng suite
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                            Phòng suite sang trọng với tầm nhìn toàn cảnh ra biển
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
-                                <div style="font-size: 14px" class="fw-bold small">
-                                    Phòng suite
-                                </div>
-                                <div style="font-size: 12px" class="small text-muted">
-                                    Phòng suite sang trọng với tầm nhìn toàn cảnh ra biển
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Loại phòng</h6>
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            Phòng sang trọng
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                            Phòng rộng rãi có tầm nhìn ra biển, giường cỡ lớn
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            Phòng suite
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                            Phòng suite sang trọng với tầm nhìn toàn cảnh ra biển
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Loại phòng</h6>
+                                <div class="d-flex flex-column gap-2">
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            Phòng sang trọng
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                            Phòng rộng rãi có tầm nhìn ra biển, giường cỡ lớn
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            Phòng suite
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                            Phòng suite sang trọng với tầm nhìn toàn cảnh ra biển
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
                     <!-- List utils -->
-                    <div class="py-4">
-                        <h6 class="mb-2">Tiện ích</h6>
-                        <div class="d-flex flex-wrap gap-2">
-                            <div class="badge-util">
-                                <i class="fas fa-wifi"></i>
-                                Wifi miễn phí
+                    <tr>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Tiện ích</h6>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <div class="badge-util">
+                                        <i class="fas fa-wifi"></i>
+                                        Wifi miễn phí
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-parking"></i>
+                                        Bãi đổ xe
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-dumbbell"></i>
+                                        Phòng GYM
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-utensils"></i>
+                                        Nhà hàng
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-tv"></i>
+                                        TV Smart
+                                    </div>
+                                </div>
                             </div>
-                            <div class="badge-util">
-                                <i class="fas fa-parking"></i>
-                                Bãi đổ xe
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Tiện ích</h6>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <div class="badge-util">
+                                        <i class="fas fa-wifi"></i>
+                                        Wifi miễn phí
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-parking"></i>
+                                        Bãi đổ xe
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-dumbbell"></i>
+                                        Phòng GYM
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-utensils"></i>
+                                        Nhà hàng
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-tv"></i>
+                                        TV Smart
+                                    </div>
+                                </div>
                             </div>
-                            <div class="badge-util">
-                                <i class="fas fa-dumbbell"></i>
-                                Phòng GYM
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Tiện ích</h6>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <div class="badge-util">
+                                        <i class="fas fa-wifi"></i>
+                                        Wifi miễn phí
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-parking"></i>
+                                        Bãi đổ xe
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-dumbbell"></i>
+                                        Phòng GYM
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-utensils"></i>
+                                        Nhà hàng
+                                    </div>
+                                    <div class="badge-util">
+                                        <i class="fas fa-tv"></i>
+                                        TV Smart
+                                    </div>
+                                </div>
                             </div>
-                            <div class="badge-util">
-                                <i class="fas fa-utensils"></i>
-                                Nhà hàng
-                            </div>
-                            <div class="badge-util">
-                                <i class="fas fa-tv"></i>
-                                TV Smart
-                            </div>
-                        </div>
-                    </div>
-
+                        </td>
+                    </tr>
                     <!-- Policy -->
-                    <div class="py-4">
-                        <h6 class="mb-2">Chính sách</h6>
-                        <div class="d-flex align-items-center gap-3 text-muted small">
-                            <small><small><i class="fas fa-circle small"></i></small></small>
-                            Check-in: 14:00, Check-out: 12:00
-                        </div>
-                        <div class="d-flex align-items-center gap-3 text-muted small">
-                            <small><small><i class="fas fa-circle small"></i></small></small>
-                            No Smoking
-                        </div>
-                        <div class="d-flex align-items-center gap-3 text-muted small">
-                            <small><small><i class="fas fa-circle small"></i></small></small>
-                            No Pets Allowed
-                        </div>
-                    </div>
+                    <tr>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Chính sách</h6>
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    Check-in: 14:00, Check-out: 12:00
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Chính sách</h6>
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    Check-in: 14:00, Check-out: 11:50
+                                </div>
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    No Smoking
+                                </div>
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    No Pets Allowed
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Chính sách</h6>
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    Check-in: 14:00, Check-out: 13:00
+                                </div>
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    No Pets Allowed
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Button -->
+                    <tr>
+                        <td>
+                            <a href="<?= URL ?>bao-gia-dich-vu" class="btn btn-outline-blue fw-bold w-100">
+                                <small>Báo giá dịch vụ</small>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="<?= URL ?>bao-gia-dich-vu" class="btn btn-outline-blue fw-bold w-100">
+                                <small>Báo giá dịch vụ</small>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="<?= URL ?>bao-gia-dich-vu" class="btn btn-outline-blue fw-bold w-100">
+                                <small>Báo giá dịch vụ</small>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+            
+            
+            
 
-                    <a href="<?= URL ?>bao-gia-dich-vu" class="btn btn-outline-blue fw-bold w-100">
-                        <small>Báo giá dịch vụ</small>
-                    </a>
+            
 
-                </div>
-            </div>
-            <?php endforeach ?>
+            
+
+            
         </div>
     </div>
 
