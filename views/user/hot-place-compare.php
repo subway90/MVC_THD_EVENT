@@ -32,18 +32,18 @@
     </div>
 
     <!-- Table List Item Compare -->
-     <style>
-        tr {
-            background-color: transparent;
-        }
-        td {
-            padding: 0 20px !important;
-            background-color: transparent !important;
-            border-right: 1px solid#aaaaaa;
-            border-left: 1px solid #aaaaaa;
-            border-bottom: none;
-        }
-     </style>
+    <style>
+    tr {
+        background-color: transparent;
+    }
+    td {
+        padding: 0 20px !important;
+        background-color: transparent !important;
+        border-right: 1px solid#aaaaaa;
+        border-left: 1px solid #aaaaaa;
+        border-bottom: none;
+    }
+    </style>
     <div class="px-lg-5 mx-lg-5 py-3">
         <div class="table-responsive">
             <table class="table">
@@ -590,19 +590,6 @@
                     </tr>
                 </tbody>
             </table>
-            
-            
-            
-            
-            
-
-            
-
-            
-
-            
         </div>
     </div>
-
-
 </div>
