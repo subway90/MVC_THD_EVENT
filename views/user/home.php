@@ -233,52 +233,6 @@
         </div>
     </div>
 </div>
-
-        <!-- <div id="carouselProject" class="carousel slide px-lg-5 mt-lg-5" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <?php foreach (ARR_P as $i => $project) : ?>
-                <div class="carousel-item  rounded-4 overflow-hidden <?= $i == 0 ? 'active' : '' ?>"  data-bs-interval="2000">
-                    <div class="d-flex flex-column flex-lg-row">
-                        <div class="col-12 col-lg-3 d-flex flex-column justify-content-between bg-light p-3">
-                            <div class="">
-                                <h5 class="fw-bold ff-main">
-                                    <?= $project['small_title'] ?>
-                                </h5>
-                                <h2 class="text-blue text-uppercase py-3">
-                                    <?= $project['title'] ?>
-                                </h2>
-                                <p class="ff-main">
-                                    <?= $project['desc'] ?>
-                                </p>
-                            </div>
-                            <a href="#" class="mt-2 fw-bold nav-link text-blue text-uppercase">
-                                Khám phá dự án
-                            </a>
-                        </div>
-                        <div class="col-12 col-lg-9">
-                            <div class="video-container">
-                                <iframe 
-                                    class="rounded-0"
-                                    src="<?= $project['video'] ?>" 
-                                    frameborder="0" 
-                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                    allowfullscreen>
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <?php endforeach ?>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center align-items-center gap-3 mt-3">
-            <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselProject" data-bs-slide="prev">
-                <i class="bi bi-arrow-left fs-4 text-muted"></i>
-            </button>
-            <button class="btn-outline-light rounded-circle" type="button" data-bs-target="#carouselProject" data-bs-slide="next">
-                <i class="bi bi-arrow-right fs-4 text-muted"></i>
-            </button>
-        </div> -->
     </div>
 </div>
 
