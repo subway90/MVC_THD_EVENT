@@ -64,17 +64,17 @@
                     <tr>
                         <td>
                             <h4 class="fw-bold pt-4">
-                                Orchid By Wyndham Halong Ocean Park
+                                WYNDHAM GARDEN SONASEA VAN DON
                             </h4>
                         </td>
                         <td>
                             <h4 class="fw-bold pt-4">
-                                Villa By Wyndham Halong
+                                Radisson Blu Hotel Halong Bay
                             </h4>
                         </td>
                         <td>
                             <h4 class="fw-bold pt-4">
-                                Resort By Wyndham Halong
+                                Soliel Hạ Long
                             </h4>
                         </td>
                     </tr>
@@ -84,7 +84,7 @@
                             <div class="d-flex align-items-center fw-semibold text-muted gap-2">
                                 <i class="bi bi-geo-alt"></i>
                                 <small class="">
-                                    Hạ Long, Quảng Ninh
+                                    Sonasea Long Beach, Ha Long, Van Don | Quang Ninh
                                 </small>
                             </div>
                         </td>
@@ -92,7 +92,7 @@
                             <div class="d-flex align-items-center fw-semibold text-muted gap-2">
                                 <i class="bi bi-geo-alt"></i>
                                 <small class="">
-                                    Hạ Long, Quảng Ninh
+                                    Lô N8-1/Số 47 Cái Dăm, Khu đô thị, Hạ Long
                                 </small>
                             </div>
                         </td>
@@ -100,7 +100,7 @@
                             <div class="d-flex align-items-center fw-semibold text-muted gap-2">
                                 <i class="bi bi-geo-alt"></i>
                                 <small class="">
-                                    Hạ Long, Quảng Ninh
+                                    82-84 Hạ Long, Bãi Cháy, Hạ Long, Quảng Ninh
                                 </small>
                             </div>
                         </td>
@@ -156,16 +156,61 @@
                             <div class="py-4">
                                 <h6 class="mb-2">Điểm nổi bật</h6>
                                 <div class="d-flex flex-column gap-2">
+
                                     <div class="d-flex align-items-center gap-2">
                                         <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
                                         <div class="small text-muted">
-                                            Bãi biển riêng chỉ cách 2 phút
+                                            Khu nghỉ dưỡng mang thương hiệu 5 sao quốc tế đầu tiên tại Vân Đồn
                                         </div>
                                     </div>
+
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Tầm nhìn toàn cảnh ra Vịnh Bái Tử Long
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Nhà hàng và Bar phong phú 
+                                        </div>
+                                    </div>
+
                                     <div class="d-flex align-items-center gap-2">
                                         <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
                                         <div class="small text-muted">
                                             Bữa sáng miễn phí hàng ngày
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Điểm nổi bật</h6>
+                                <div class="d-flex flex-column gap-2">
+
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Khách sạn 5 sao
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Tầm nhìn ngoạn mục ra hồ hoặc vịnh xung quanh
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
+                                        <div class="small text-muted">
+                                            Phục vụ bữa sáng với thực đơn à la carte và kiểu Mỹ
                                         </div>
                                     </div>
                                 </div>
@@ -175,49 +220,28 @@
                             <div class="py-4">
                                 <h6 class="mb-2">Điểm nổi bật</h6>
                                 <div class="d-flex flex-column gap-2">
+
                                     <div class="d-flex align-items-center gap-2">
                                         <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
                                         <div class="small text-muted">
-                                            Bãi biển riêng chỉ cách 5 phút
+                                            Tọa lạc ở trung tâm thành phố Hạ Long, đối diện với công viên giải trí SunWorld và tầm nhìn toàn cảnh ra vịnh Hạ Long
                                         </div>
                                     </div>
+
                                     <div class="d-flex align-items-center gap-2">
                                         <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
                                         <div class="small text-muted">
-                                            Phòng tắm khoáng miễn phí
+                                            Dịch vụ đưa đón khách sân bay
                                         </div>
                                     </div>
+
                                     <div class="d-flex align-items-center gap-2">
                                         <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
                                         <div class="small text-muted">
-                                            Bữa sáng miễn phí hàng ngày
+                                            Phục vụ bữa sáng thực đơn buffet và kiểu lục địa
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="py-4">
-                                <h6 class="mb-2">Điểm nổi bật</h6>
-                                <div class="d-flex flex-column gap-2">
-                                    <div class="d-flex align-items-center gap-2">
-                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
-                                        <div class="small text-muted">
-                                            Có bãi tắm riêng, view phòng nhìn biển
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center gap-2">
-                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
-                                        <div class="small text-muted">
-                                            Dịch vụ spa & xông hơi miễn phí
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center gap-2">
-                                        <img width="18px" src="<?= URL_STORAGE ?>system/check_icon.jpg" alt="">
-                                        <div class="small text-muted">
-                                            Bữa sáng miễn phí hàng ngày
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </td>
@@ -228,22 +252,25 @@
                             <div class="py-4">
                                 <h6 class="mb-2">Loại phòng</h6>
                                 <div class="d-flex flex-column gap-2">
+
                                     <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
                                         <div style="font-size: 14px" class="fw-bold small">
-                                            Phòng sang trọng
+                                            Phòng nghỉ
                                         </div>
                                         <div style="font-size: 12px" class="small text-muted">
-                                            Phòng rộng rãi có tầm nhìn ra biển, giường cỡ lớn
+                                            Phòng rộng rãi có tầm nhìn ra biển
                                         </div>
                                     </div>
+
                                     <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
                                         <div style="font-size: 14px" class="fw-bold small">
-                                            Phòng suite
+                                            Phòng Suite
                                         </div>
                                         <div style="font-size: 12px" class="small text-muted">
-                                            Phòng suite sang trọng với tầm nhìn toàn cảnh ra biển
+                                            Phòng rộng rãi có tầm nhìn ra biển
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </td>
@@ -251,22 +278,25 @@
                             <div class="py-4">
                                 <h6 class="mb-2">Loại phòng</h6>
                                 <div class="d-flex flex-column gap-2">
+
                                     <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
                                         <div style="font-size: 14px" class="fw-bold small">
-                                            Phòng sang trọng
+                                            Phòng nghỉ
                                         </div>
                                         <div style="font-size: 12px" class="small text-muted">
-                                            Phòng rộng rãi có tầm nhìn ra biển, giường cỡ lớn
+                                            Được thiết kế kết hợp sự thanh lịch hiện đại với sự thoải mái đặc biệt.
                                         </div>
                                     </div>
+
                                     <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
                                         <div style="font-size: 14px" class="fw-bold small">
-                                            Phòng suite
+                                            Phòng Suite
                                         </div>
                                         <div style="font-size: 12px" class="small text-muted">
-                                            Phòng suite sang trọng với tầm nhìn toàn cảnh ra biển
+                                            Thiết kế đặc biệt cùng những tiện nghi cao cấp.
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </td>
@@ -274,22 +304,80 @@
                             <div class="py-4">
                                 <h6 class="mb-2">Loại phòng</h6>
                                 <div class="d-flex flex-column gap-2">
+
                                     <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
                                         <div style="font-size: 14px" class="fw-bold small">
-                                            Phòng sang trọng
+                                            252 phòng Nghỉ
                                         </div>
                                         <div style="font-size: 12px" class="small text-muted">
-                                            Phòng rộng rãi có tầm nhìn ra biển, giường cỡ lớn
+                                            Tiêu chuẩn đến cao cấp được bố trí hài hòa trong lối kiến trúc độc đáo
                                         </div>
                                     </div>
+
                                     <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
                                         <div style="font-size: 14px" class="fw-bold small">
-                                            Phòng suite
+                                            198 phòng Deluxe King/ Twin
                                         </div>
                                         <div style="font-size: 12px" class="small text-muted">
-                                            Phòng suite sang trọng với tầm nhìn toàn cảnh ra biển
                                         </div>
                                     </div>
+
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            13 phòng Premier with Bay View
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            21 phòng Junior Suites
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            7 Executive Suites
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            9 Family Suites
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            2 Bedroom
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                            2 Predient Suites
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-column justify-content-center gap-1 px-3 py-1 border-start border-primary">
+                                        <div style="font-size: 14px" class="fw-bold small">
+                                        </div>
+                                        <div style="font-size: 12px" class="small text-muted">
+                                            Tất cả các phòng đều sở hữu tiện nghi hiện đại với tầm nhìn bao quát toàn cảnh thành phố và Vịnh Hạ Long thơ mộng.
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </td>
@@ -301,24 +389,28 @@
                                 <h6 class="mb-2">Tiện ích</h6>
                                 <div class="d-flex flex-wrap gap-2">
                                     <div class="badge-util">
-                                        <i class="fas fa-wifi"></i>
+                                        3 hồ bơi
+                                    </div>
+                                    <div class="badge-util">
                                         Wifi miễn phí
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-parking"></i>
-                                        Bãi đổ xe
+                                        Chỗ đổ xe miễn phí
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-dumbbell"></i>
-                                        Phòng GYM
+                                        4 Nhà hàng
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-utensils"></i>
-                                        Nhà hàng
+                                        Quầy bar
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-tv"></i>
-                                        TV Smart
+                                        Giáp biển
+                                    </div>
+                                    <div class="badge-util">
+                                        Khu vực bãi tắm riêng
+                                    </div>
+                                    <div class="badge-util">
+                                        Bữa sáng
                                     </div>
                                 </div>
                             </div>
@@ -328,24 +420,34 @@
                                 <h6 class="mb-2">Tiện ích</h6>
                                 <div class="d-flex flex-wrap gap-2">
                                     <div class="badge-util">
-                                        <i class="fas fa-wifi"></i>
+                                        2 hồ bơi
+                                    </div>
+                                    <div class="badge-util">
                                         Wifi miễn phí
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-parking"></i>
-                                        Bãi đổ xe
+                                        Phòng gia đình
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-dumbbell"></i>
-                                        Phòng GYM
+                                        Chỗ đổ xe miễn phí
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-utensils"></i>
-                                        Nhà hàng
+                                        Phòng không hút thuốc
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-tv"></i>
-                                        TV Smart
+                                        Trung tâm Spa & chăm sóc sức khoẻ
+                                    </div>
+                                    <div class="badge-util">
+                                        Lễ tân 24 giờ
+                                    </div>
+                                    <div class="badge-util">
+                                        Trung tâm thể dục
+                                    </div>
+                                    <div class="badge-util">
+                                        Quầy Bar
+                                    </div>
+                                    <div class="badge-util">
+                                        Bữa sáng
                                     </div>
                                 </div>
                             </div>
@@ -355,24 +457,34 @@
                                 <h6 class="mb-2">Tiện ích</h6>
                                 <div class="d-flex flex-wrap gap-2">
                                     <div class="badge-util">
-                                        <i class="fas fa-wifi"></i>
+                                        Hồ bơi trong nhà
+                                    </div>
+                                    <div class="badge-util">
                                         Wifi miễn phí
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-parking"></i>
-                                        Bãi đổ xe
+                                        Xe đưa đón sân bay
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-dumbbell"></i>
-                                        Phòng GYM
+                                        Phòng gia đình
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-utensils"></i>
-                                        Nhà hàng
+                                        Chỗ đỗ xe
                                     </div>
                                     <div class="badge-util">
-                                        <i class="fas fa-tv"></i>
-                                        TV Smart
+                                        Phòng không hút thuốc
+                                    </div>
+                                    <div class="badge-util">
+                                        Trung tâm Spa & chăm sóc sức khoẻ
+                                    </div>
+                                    <div class="badge-util">
+                                        Lễ tân 24 giờ
+                                    </div>
+                                    <div class="badge-util">
+                                        Quầy Bar
+                                    </div>
+                                    <div class="badge-util">
+                                        Bữa sáng tốt
                                     </div>
                                 </div>
                             </div>
@@ -383,40 +495,78 @@
                         <td>
                             <div class="py-4">
                                 <h6 class="mb-2">Chính sách</h6>
+
                                 <div class="d-flex align-items-center gap-3 text-muted small">
                                     <small><small><i class="fas fa-circle small"></i></small></small>
-                                    Check-in: 14:00, Check-out: 12:00
+                                    Check-in: 15h
+                                </div>
+
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    Check-out: 12h
+                                </div>
+
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    No smoking
+                                </div>
+
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    No pets allowed
+                                </div>
+
+                            </div>
+                        </td>
+                        <td>
+                            <div class="py-4">
+                                <h6 class="mb-2">Chính sách</h6>
+                                
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    Check-in: 15h - 23h
+                                </div>
+
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    Check-out: 6h - 11h
+                                </div>
+
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    No smoking
+                                </div>
+
+                                <div class="d-flex align-items-center gap-3 text-muted small">
+                                    <small><small><i class="fas fa-circle small"></i></small></small>
+                                    No pets allowed
                                 </div>
                             </div>
                         </td>
                         <td>
                             <div class="py-4">
                                 <h6 class="mb-2">Chính sách</h6>
+                                
                                 <div class="d-flex align-items-center gap-3 text-muted small">
                                     <small><small><i class="fas fa-circle small"></i></small></small>
-                                    Check-in: 14:00, Check-out: 11:50
+                                    Check-in: 14h - 23h30
                                 </div>
+
                                 <div class="d-flex align-items-center gap-3 text-muted small">
                                     <small><small><i class="fas fa-circle small"></i></small></small>
-                                    No Smoking
+                                    Check-out: 11h - 12h
                                 </div>
+
                                 <div class="d-flex align-items-center gap-3 text-muted small">
                                     <small><small><i class="fas fa-circle small"></i></small></small>
-                                    No Pets Allowed
+                                    No smoking
                                 </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="py-4">
-                                <h6 class="mb-2">Chính sách</h6>
+
                                 <div class="d-flex align-items-center gap-3 text-muted small">
                                     <small><small><i class="fas fa-circle small"></i></small></small>
-                                    Check-in: 14:00, Check-out: 13:00
+                                    No pets allowed
                                 </div>
-                                <div class="d-flex align-items-center gap-3 text-muted small">
-                                    <small><small><i class="fas fa-circle small"></i></small></small>
-                                    No Pets Allowed
-                                </div>
+
                             </div>
                         </td>
                     </tr>
