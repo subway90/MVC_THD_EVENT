@@ -29,7 +29,7 @@
     </div>
 
     <!-- Section Step -->
-    <div class="container pb-5 mb-lg-5">
+    <div class="container pb-lg-5 mb-5">
         <div class="d-flex align-items-center justify-content-between">
             <div class="box-num-step active">
                 1
@@ -73,7 +73,7 @@
                 </span>
             </div>
         </div>
-        
+
         <!-- Name Step In Mobile/Tablet -->
         <h3 class="fw-bold text-uppercase text-blue text-center d-block d-lg-none mt-5">
             Chọn địa điểm

@@ -29,7 +29,7 @@
     </div>
 
     <!-- Section Step -->
-    <div class="container pb-5 mb-5">
+    <div class="container pb-lg-5 mb-5">
         <div class="d-flex align-items-center justify-content-between">
             <div class="box-num-step active">
                 1
@@ -84,7 +84,7 @@
     <div class="container">
 
         <!-- Choose Service -->
-        <div class="w-100 d-flex flex-wrap align-items-center px-5 py-3 border mt-1">
+        <div class="w-100 d-flex flex-wrap align-items-center p-2 px-lg-5 py-lg-3 border mt-1">
             <div class="col-12 mb-3">
                 <label for="full_name" class="form-label">Họ và tên</label>
                 <input type="text" class="form-control" id="fullName" placeholder="Họ và tên">

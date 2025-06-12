@@ -29,7 +29,7 @@
     </div>
 
     <!-- Section Step -->
-    <div class="container pb-5 mb-5">
+    <div class="container pb-lg-5 mb-5">
         <div class="d-flex align-items-center justify-content-between">
             <div class="box-num-step active">
                 1
@@ -85,10 +85,8 @@
     <div class="container">
 
         <!-- Choose Service -->
-        <div class="text-center px-5 py-3 mt-1">
-            <h1 class="fw-bold">
+        <div class="text-center px-5 py-3 mt-1 fw-bold text-nowrap h1">
                 Đã hoàn tất đăng ký
-            </h1>
         </div>
         
     </div>

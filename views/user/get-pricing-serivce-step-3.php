@@ -29,7 +29,7 @@
     </div>
 
     <!-- Section Step -->
-    <div class="container pb-5 mb-5">
+    <div class="container pb-lg-5 mb-5">
         <div class="d-flex align-items-center justify-content-between">
             <div class="box-num-step active">
                 1
@@ -84,7 +84,7 @@
     <div class="container">
 
         <!-- Choose Service -->
-        <div class="w-100 d-flex flex-wrap align-items-center px-5 py-3 border mt-1">
+        <div class="w-100 d-flex flex-wrap align-items-center px-lg-5 py-lg-3 border mt-1">
             <div class="col-12 col-lg-6 d-flex align-items-center gap-2 justify-content-center mb-3 p-2">
                 <label for="dateStart" class="text-nowrap col">Thời gian khởi hành</label>
                 <input type="date" class="form-control col" value="<?= date('Y-m-d') ?>" min="<?= date('Y-m-d') ?>" id="dateStart" placeholder="Nhấn chọn thời gian">

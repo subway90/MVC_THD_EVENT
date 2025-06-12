@@ -29,7 +29,7 @@
     </div>
 
     <!-- Section Step -->
-    <div class="container pb-5 mb-5">
+    <div class="container pb-lg-5 mb-5">
         <div class="d-flex align-items-center justify-content-between">
             <div class="box-num-step active">
                 1
