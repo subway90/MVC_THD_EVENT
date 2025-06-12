@@ -233,6 +233,54 @@ html {
     }
 }
 
+.box-num-step {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #999999;
+    position: relative;
+}
+
+.box-num-step.active {
+    background-color: var(--color-dark-blue);
+}
+
+.box-num-step .name-step {
+    position: absolute;
+    top: calc(100% + 18px);
+    text-wrap: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+    color : #999999; 
+}
+
+.box-num-step.active .name-step {
+    color : #13A3DE; 
+}
+
+.line-step {
+    flex: 1 0 0;
+    height: 5px;
+    background-color: #999999;
+}
+
+.line-step.active {
+    background-color: var(--color-dark-blue);
+}
+
+.head-form-step-1 {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F5F5F5;
+    border : 1px solid #DADADA
+}
+
 #running_banner {
     overflow: hidden; /* Ẩn phần không nhìn thấy */
     white-space: nowrap; /* Để các ảnh nằm trên cùng một dòng */
