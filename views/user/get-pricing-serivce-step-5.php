@@ -33,7 +33,7 @@
         <div class="d-flex align-items-center justify-content-between">
             <div class="box-num-step active">
                 1
-                <span class="name-step active">
+                 <span class="name-step d-none d-lg-block">
                     Chọn địa điểm
                 </span>
             </div>
@@ -41,7 +41,7 @@
 
             <div class="box-num-step active">
                 2
-                <span class="name-step">
+                 <span class="name-step d-none d-lg-block">
                     Chọn dịch vụ
                 </span>
             </div>
@@ -50,7 +50,7 @@
 
             <div class="box-num-step active">
                 3
-                <span class="name-step">
+                 <span class="name-step d-none d-lg-block">
                     Chọn ngày giờ, số lượng khách
                 </span>
             </div>
@@ -59,7 +59,7 @@
 
             <div class="box-num-step active">
                 4
-                <span class="name-step">
+                 <span class="name-step d-none d-lg-block">
                     Thông tin khách hàng và cách thức liên hệ
                 </span>
             </div>
@@ -68,11 +68,17 @@
 
             <div class="box-num-step active">
                 5
-                <span class="name-step">
+                 <span class="name-step d-none d-lg-block">
                     Hoàn thành
                 </span>
             </div>
         </div>
+
+        <!-- Name Step In Mobile/Tablet -->
+        <h3 class="fw-bold text-uppercase text-blue text-center d-block d-lg-none mt-5">
+            Hoàn thành
+        </h3>
+
     </div>
 
     <!-- Section Form -->

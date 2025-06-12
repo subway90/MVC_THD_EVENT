@@ -29,11 +29,11 @@
     </div>
 
     <!-- Section Step -->
-    <div class="container pb-5 mb-5">
+    <div class="container pb-5 mb-lg-5">
         <div class="d-flex align-items-center justify-content-between">
             <div class="box-num-step active">
                 1
-                <span class="name-step">
+                <span class="name-step d-none d-lg-block">
                     Chọn địa điểm
                 </span>
             </div>
@@ -41,7 +41,7 @@
 
             <div class="box-num-step">
                 2
-                <span class="name-step">
+                <span class="name-step d-none d-lg-block">
                     Chọn dịch vụ
                 </span>
             </div>
@@ -50,7 +50,7 @@
 
             <div class="box-num-step">
                 3
-                <span class="name-step">
+                <span class="name-step d-none d-lg-block">
                     Chọn ngày giờ, số lượng khách
                 </span>
             </div>
@@ -59,7 +59,7 @@
 
             <div class="box-num-step">
                 4
-                <span class="name-step">
+                <span class="name-step d-none d-lg-block">
                     Thông tin khách hàng và cách thức liên hệ
                 </span>
             </div>
@@ -68,11 +68,16 @@
 
             <div class="box-num-step">
                 5
-                <span class="name-step">
+                <span class="name-step d-none d-lg-block">
                     Hoàn thành
                 </span>
             </div>
         </div>
+        
+        <!-- Name Step In Mobile/Tablet -->
+        <h3 class="fw-bold text-uppercase text-blue text-center d-block d-lg-none mt-5">
+            Chọn địa điểm
+        </h3>
     </div>
 
     <!-- Section Form -->
